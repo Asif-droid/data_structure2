@@ -28,9 +28,9 @@ public class dijkstraAlgo {
         @Override
         public int compare(node o1, node o2) {
             if(o1.key>o2.key)
-                return 1;
+                return 1;        //o1 should be placed after o2
             else
-                return -1;
+                return -1;        //o2 should be placed after o1
         }
     }
     static class graph{
